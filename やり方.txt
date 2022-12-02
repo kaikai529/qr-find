@@ -1,0 +1,12 @@
+1. 実行ポリシーの確認
+Get-ExecutionPolicy
+
+2. 実行ポリシーの変更
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUse
+
+3. Reactプロジェクトの構築
+create-react-app ProjectName
+
+4. サーバの起動
+cd ProjectName
+npm start
